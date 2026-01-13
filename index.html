@@ -1,11 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>🎓 Projeto de certificação 2 – Postagem de blog</title>
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    
+    <header>
+        <img src="./img/icone1.png" alt="imagem logo tipo">
+    </header>
+    <main>
+        <section class="containner-principal" id="render">
+            <div class="dados">
+                <div class="div-header"></div>
+                <div class="div-h1">
+                    <h1>🎓Projeto de certificação 2 Postagem de blog</h1>
+                </div>
+                <div class="containner-form">
+                    <form id="form">
+                        <div class="div-form">
+                            <input type="text" id="titulo-input" placeholder="Seu titulo..." required>
+                        </div>
+                        <div class="div-form">
+                            <textarea id="conteudo-textarea" placeholder="Seu conteudo..." required></textarea>
+                        </div>
+                        <div class="div-form">
+                            <input type="submit" value="Publicar" id="button-submit">
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+            <div class="render" id="renderhtml"></div>
+
+        </section>
+
+
+
+
+        <article>
+            <div class="subscribe-box">
+                <h2>Subscreva-se à Nosso Blog</h2>
+                <p>Receba as últimas atualizações e novidades diretamente no seu e-mail.</p>
+
+
+                <form>
+                    <input type="email" name="email" placeholder="Digite seu e-mail" required>
+                    <button type="button">Subscrever</button>
+                </form>
+            </div>
+        </article>
+
+    </main>
 </body>
+<script src="index.js"></script>
+
 </html>
